@@ -1,7 +1,7 @@
 Namaste all
 
-It is complete telugu <==> english <==> telugu dictionary, craeted from wiktionary, and janapada dictionary.
-all, words, in wiktionary contains, it's translations, synonyms, etc. in description. So all those synonyms
+It is complete telugu <==> english <==> telugu dictionary, created from wiktionary, and janapada dictionary.
+all words in wiktionary contains it's translations, synonyms, etc. in description. So all those synonyms
 are added to head words, so that it can facilated english or tamil word search also, and can link with janapada too,
 thus works beautifully as eng-tel dictionary too. just for example search for word 'end' , it will give you some 20 words
 in results with comprehensive information.
