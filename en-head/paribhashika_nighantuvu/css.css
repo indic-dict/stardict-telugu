@@ -1,0 +1,75 @@
+div.vyvhr_tera{
+font-family:Verdana, "Lucida Sans Unicode", sans-serif;
+margin: 0em;
+line-height:1.5em;
+}
+div.vyvhr_shirshika{
+max-width:20em;
+height:3em;
+float:left;
+text-align:left;
+}
+
+div.vyvhr_patra{
+/*background: #F7F2DC;*/
+background: #ccc193;
+border-radius:5px;
+margin:0 auto 0 auto;
+padding: 1em;
+max-width:55.8em;
+color:#1b1205;
+font-size: 1em;
+}
+
+div.vyvhr_pnum{
+max-width:10em;
+height:3em;
+float:right;
+text-align:right;
+}
+
+div.vyvhr_pada{
+border:1px solid black;
+min-width:7em;
+padding:0.3em;
+}
+
+div.vyvhr_floatclr{
+clear:left;
+}
+
+a.vyvhr_a_pada:link,a.vyvhr_a_pada:visited,a.vyvhr_pada,a.vyvhr_pglink{
+color: #1b1205; text-decoration: none;
+}
+a.vyvhr_a_pada:hover{
+text-decoration: underline;
+color:#9b0606;
+}
+a.vyvhr_pglink:hover{
+text-decoration: underline;
+}
+
+span.vyvhr_span_bsbg{
+color: brown;
+}
+div.vyvhr_vivaraNa{
+padding-top:0.1em;}
+div.vyvhr_bsbg{
+margin-bottom:1.0em;
+}
+div.vyvhr_nanartha::before{
+content:"• ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
