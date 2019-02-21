@@ -14,5 +14,5 @@ stardict:
 	bash $(STARDICT_SANSKRIT_BIN)/tsv_to_stardict.sh  DICTS=$(DICTS)
 
 tars:
-	bash $(STARDICT_SANSKRIT_BIN)/make_tarballs.sh https://github.com/sanskrit-coders/stardict-telugu/raw/master/te-head DICTS=$(DICTS)
+	bash $(STARDICT_SANSKRIT_BIN)/make_tarballs.sh https://github.com/indic-dict/stardict-telugu/raw/master/te-head DICTS=$(DICTS)
 
