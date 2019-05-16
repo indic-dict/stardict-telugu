@@ -17,4 +17,4 @@ tars:
 	bash $(DICT_TOOLS_BIN_BASH)/make_tarballs.sh https://github.com/indic-dict/stardict-telugu/raw/gh-pages/te-head DICTS=$(DICTS)
 
 full:
-  bash $(DICT_TOOLS_BIN_BASH)/full_build.sh https://github.com/indic-dict/stardict-telugu/raw/gh-pages/te-head DICTS=$(DICTS)
+	bash $(DICT_TOOLS_BIN_BASH)/full_build.sh https://github.com/indic-dict/stardict-telugu/raw/gh-pages/te-head DICTS=$(DICTS)
