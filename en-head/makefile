@@ -15,3 +15,7 @@ stardict:
 
 tars:
 	bash $(DICT_TOOLS_BIN_BASH)/make_tarballs.sh https://github.com/indic-dict/stardict-telugu/raw/gh-pages/en-head DICTS=$(DICTS)
+
+full:
+  bash $(DICT_TOOLS_BIN_BASH)/full_build.sh https://github.com/indic-dict/stardict-telugu/raw/gh-pages/en-head DICTS=$(DICTS)
+
