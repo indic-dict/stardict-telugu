@@ -1,0 +1,69 @@
+This folder contain resources to obtain the babylon file from given pdf.
+
+This pdf first splitted into two parts vertically using crop tool, and then converted both pdfs to to HTML using Infix-pdf editor , windows software, works well with wine. HTML is choosen for preserving font grouping. now we got two htmls. But they contains lot of waste html, and telugu fonts are not in unicode. 
+
+book contains all meanings grouped , and sectioned with bhashabhagas.. and each bhashabhagas have differant  nanarthas, in differant lines ending with semicolon, and for each nanartha differant meanings again.. So we have to recreate that gruping also.
+
+here decode.sh file will convert text in present encoding to unicode. first do all above cleaning, grouping, and all, and merge two html files into one word by word , the result is one single file mula.html which i gave here. then apply this shell script. If any thing no converted well mention in issues, will correct it. 
+
+then extract english titles, and then extract telugu meanings too, which again have differant patterns to fallow.. like braces, and slashes.. expand them all too. and then transliterate them, and finally mix them all. 
+
+all above procedure along with decoding, sectioning, transliterating, titles , etc.. is in script make_par.sh, entirely with only 'sed' substitutions, and other bash tools.  keep decode.sh, make_par.sh and mula.html in single preempty directory, then run make_par.sh .. will give babylon file finally.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
