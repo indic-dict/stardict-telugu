@@ -1,1 +1,1 @@
-https://github.com/indic-dict/stardict-telugu/raw/gh-pages/en-head/slobs/paribhashika_nighantuvu__2022-01-22_15-16-33Z__32MB.slob  
+https://github.com/indic-dict/stardict-telugu/raw/gh-pages/en-head/slobs/paribhashika_nighantuvu__2023-06-16_05-43-53Z__32MB.slob  
